@@ -9,7 +9,7 @@ body {
 }
 
 header{
-  background-image:url("/pictures/main-page/main-pic.webp");
+  background-image:url("https://greenpower90.github.io/zahrada/pictures/main-page/main-pic.webp");
   background-position:center;
   background-size:cover;
 }
@@ -24,7 +24,7 @@ main{
 }
 
 .main-top{
-  background-image:url("/pictures/main-page/chatka.webp");
+  background-image:url("https://greenpower90.github.io/zahrada/pictures/main-page/chatka.webp");
   background-position:top;
   background-size:cover;
 }
