@@ -78,7 +78,7 @@ header li{
 }
 
 #google-map{
-  width:400px;
+  width:300px;
   height:350px;
 }
 
@@ -87,16 +87,19 @@ header li{
   margin: 0 auto;
   text-align: left;
   padding: 1em;
+  font-size: 1.125rem;
 }
 
 #dalsi-nabidka li{
   list-style: none;
   text-align: center;
+  font-size: 1.125rem;
 
 }
 
 #dalsi-nabidka {
   margin-bottom: 2em;
+  
 }
 
 
@@ -124,6 +127,7 @@ header li{
 
     .main-top{
       display: flex;
+      gap: 0.5em;
       margin-top: 2em;
       background-image:none;
       justify-content: center;
@@ -145,5 +149,10 @@ header li{
     #google-map{
       width:600px;
       height:450px;
+    }
+    footer{
+      display: flex;
+      justify-content: center;
+      gap: 1em;
     }
 }
