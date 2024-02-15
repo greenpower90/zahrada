@@ -9,7 +9,7 @@ body {
 }
 
 header{
-  background-image:url("https://greenpower90.github.io/zahrada/pictures/main-page/main-pic.webp");
+  background-image:url("https://greenpower90.github.io/zahrada/pictures/main-page/main-pic.jpg");
   background-position:center;
   background-size:cover;
 }
@@ -41,7 +41,7 @@ header h3  {
   margin: 0;
 }
 
-header h1{
+header{
   padding-top: 0.6em;
 }
 
@@ -108,12 +108,18 @@ header li{
       flex-direction: row;
       justify-content: space-between;
       align-items: center;
+      padding: 2.5em 0;
     }
     
 
     header h1{
-      padding: 0;
+      font-size: 3rem;
     }
+
+    header h3{
+      font-size: 2rem;
+    }
+
     .heading{
       padding: 0.5em;
     }
