@@ -2,6 +2,11 @@
   box-sizing: border-box;
 }
 
+h1, h2, h3{
+  font-family: "Lobster Two", sans-serif;
+  margin:0
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -34,6 +39,7 @@ header{
   text-shadow: 1px 1px 3px black;
   display: flex;
   flex-direction: column;
+  padding-top: 0.6em;
 }
 
 header h1,
@@ -41,17 +47,6 @@ header h3  {
   margin: 0;
 }
 
-header{
-  padding-top: 0.6em;
-}
-
-.nabidka h2,
-.nabidka h3,
-header h1,
-header h3,
-main h3{
-  font-family: "Lobster Two", sans-serif;
-}
 
 .nabidka{
   background-color: rgba(255, 255, 255, 0.678);
@@ -69,12 +64,25 @@ header ul{
 }
 
 header li{
-  padding: 0.5em;;
+  padding: 0.5em;
+}
+
+header li:hover{
+  cursor: pointer;
+  font-weight: bold;
 }
 
 #main-pic {
   width: 100%;
   max-width: 600px;
+}
+
+.location{
+  margin: 2em 0;
+}
+
+.location h2{
+  margin-bottom: 0.5em;
 }
 
 #google-map{
@@ -108,7 +116,7 @@ header li{
       flex-direction: row;
       justify-content: space-between;
       align-items: center;
-      padding: 2.5em 0;
+      padding: 2.5em 0.7em;
     }
     
 
