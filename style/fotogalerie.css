@@ -39,8 +39,14 @@ main {
 
 #fotogalerie-all-pictures-grid{
   display: grid;
-  grid-template-columns: repeat(3, minmax(200px, 300px));
+  padding: 0 1em;
+  grid-template-columns: repeat(2, minmax(200px, 300px));
   grid-gap: 2em;
   justify-content: center;
 }
 
+@media (min-width: 780px){
+  #fotogalerie-all-pictures-grid{
+    grid-template-columns: auto auto auto;
+  }
+}

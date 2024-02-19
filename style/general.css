@@ -135,6 +135,9 @@ header li:hover{
       padding: 2.5em 0.7em;
     }
     
+    #fotogalerie-all-pictures-grid{
+      grid-template-columns: 1fr 1fr 1fr;
+    }
 
     header h1{
       font-size: 3rem;
