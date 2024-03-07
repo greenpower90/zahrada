@@ -95,9 +95,12 @@ header li:hover{
 
 .fb-link{
   display: flex;
-  margin: 20px auto 0 auto;
+  flex-direction: column;
+  margin: 20px auto 20px auto;
+  padding: 0.5em;
   gap: 10px;
   align-items: center;
+  justify-content: center;
 }
 
 .icon{
@@ -173,6 +176,10 @@ header li:hover{
       background-color: rgba(128, 128, 128, 0.461);
       margin: 0;
       margin-right: 1em;
+    }
+
+    .fb-link{
+      flex-direction: row;
     }
 
     .main-top{
