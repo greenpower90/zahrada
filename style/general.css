@@ -93,6 +93,23 @@ header li:hover{
   max-width: 600px;
 }
 
+.fb-link{
+  display: flex;
+  margin: 20px auto 0 auto;
+  gap: 10px;
+  align-items: center;
+}
+
+.icon{
+  width: 40px;
+  border-radius: 20px;
+}
+
+.icon:hover{
+  cursor: pointer;
+  opacity: 0.8;
+}
+
 .location{
   margin: 2em 0;
 }
