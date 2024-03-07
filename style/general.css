@@ -108,6 +108,11 @@ header li:hover{
   border-radius: 20px;
 }
 
+.icon-small{
+  width: 20px;
+  border-radius: 20px;
+}
+
 .icon:hover{
   cursor: pointer;
   opacity: 0.8;
@@ -146,6 +151,16 @@ header li:hover{
   
 }
 
+footer p{
+  margin:0;
+}
+
+footer{
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  padding: 1em 0;
+}
 
 @media (min-width: 780px){
     header{
